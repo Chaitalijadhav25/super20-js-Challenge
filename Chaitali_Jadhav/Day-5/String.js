@@ -17,7 +17,6 @@ const StringName = new String("ABC-D");
 3:D
 length:4
 [[Prototype]]:String
-[[primitiveValue]]:"ABCD"
 */
 
 console.log(StringName[0]);  //A

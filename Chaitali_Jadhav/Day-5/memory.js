@@ -12,7 +12,7 @@ console.log(myName);       // ChaitaliJadhav
 console.log(anotherName);  // Chaitali
 
 
-//------Heap-------
+//------Heap----------
 
 
 let userone = {
