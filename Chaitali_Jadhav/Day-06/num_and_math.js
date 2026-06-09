@@ -40,8 +40,7 @@ console.log(Math.min(2 , 4 ,5 ,7)) //2
 console.log(Math.max(2 , 4 ,5 ,7)) //7
 
 console.log(Math.random()) //gives random value bwt 0 and 1
-console.log((Math.floor(Math.random()) *10) + 1) //1
-
+console.log(Math.floor(Math.random() *10) + 1) //numbers btw 1 to 0
 
 const min=10
 const max=20
