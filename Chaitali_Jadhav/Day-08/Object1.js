@@ -19,7 +19,7 @@ console.log(JsUser.age)  //18
 console.log(JsUser["email"])  //chaitali@gmail.com
 console.log(JsUser["full name"])  //chaitali jadhav
 console.log(JsUser[mySym])  // mykey1
-// console.log(typeof JsUser.mySym) //string 
+console.log(typeof JsUser.mySym) //string 
 //mySym doesn't act as a symbol ,so we put [] to key like this [mySym]
 
 JsUser.email = "Chaitalijadhav@g.com"
