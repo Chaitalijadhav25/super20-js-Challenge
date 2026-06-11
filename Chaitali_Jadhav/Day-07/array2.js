@@ -11,6 +11,12 @@ console.log(newS)
 
 const newArr = [...sports, ...people]
 console.log(newArr)
+function sum(...numbers)
+{ 
+    return numbers.reduce((total, num) => total + num, 0); 
+} 
+console.log(sum(10, 20)); // 30 
+console.log(sum(10, 20, 30, 40)); // 100 console.log(sum(5)); // 5
 
 const another_array = [1,2,3,[4,5,6] ,7, [6 , 7, [4,5]]]
 
